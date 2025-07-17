@@ -11,7 +11,9 @@ import SwiftUI
 struct reteachApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                HomeContentView()
+            }
         }
     }
 }
